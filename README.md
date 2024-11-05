@@ -14,6 +14,20 @@ You can install the package via [Composer](https://getcomposer.org/):
 composer require nacosvel/laravel-rooster
 ```
 
+### Publish Command
+
+You can publish configuration file using the `vendor:publish` command:
+
+```shell
+php artisan vendor:publish --tag=rooster-config
+```
+
+or
+
+```shell
+php artisan vendor:publish --provider="Nacosvel\Rooster\RoosterServiceProvider"
+```
+
 ## License
 
 Nacosvel Rooster Implementation for Laravel is made available under the MIT License (MIT). Please see [License File](LICENSE) for more information.

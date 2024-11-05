@@ -15,17 +15,12 @@
     ],
     "require": {
         "php": ">=8.0",
-        "nacosvel/feign": "^1.0",
-        "nacosvel/rooster-contracts": "^1.0",
-        "ramsey/uuid": "^4.7"
+        "nacosvel/laravel-database-manager": "^1.0"
     },
     "autoload": {
         "psr-4": {
             "Nacosvel\\Rooster\\": "src/"
         }
-    },
-    "provide": {
-        "nacosvel/rooster-implementation": "1.0"
     },
     "extra": {
         "branch-alias": {
